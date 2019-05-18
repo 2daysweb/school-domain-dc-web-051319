@@ -30,6 +30,7 @@ class School
       sorted_key_hash = sort_by_key
       sorted_key_hash.each do |k,v|
         sorted_key_hash[k] = v.sort!
+      end
 end
           
       
