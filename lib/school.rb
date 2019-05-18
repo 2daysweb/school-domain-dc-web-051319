@@ -27,10 +27,7 @@ class School
     
     #sort value arrays in place
     def sort
-      sorted_key_hash.each do |k,v|
-          arr_values.each do |arr| 
-          if @roster[k] == arr
-          binding.pry
+      sorted_key_hash = sort_by_key
           @roster[k] = arr
         else
           @roster[k] = @roster[k]
