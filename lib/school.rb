@@ -21,6 +21,7 @@ class School
       @roster[level]
     end 
     
+    #sort by key 
     def sort_by_key
       @roster.sort.to_h
   end 
