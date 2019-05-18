@@ -32,6 +32,7 @@ class School
         sorted_key_hash[k] = v.sort!
       end
 end
+end
           
       
   
