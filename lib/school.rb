@@ -22,7 +22,7 @@ class School
     end 
     
     def sort_by_key
-      @roster.keys.sort.to_h
+      @roster.sort.to_h
       binding.pry
   end 
     
