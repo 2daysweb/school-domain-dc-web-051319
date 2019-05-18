@@ -23,7 +23,6 @@ class School
     
     def sort_by_key
       @roster.sort.to_h
-      binding.pry
   end 
     
     #sort value arrays in place
