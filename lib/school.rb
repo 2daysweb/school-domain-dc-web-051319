@@ -24,9 +24,6 @@ class School
     def sort_by_value
       sorted_vals = @roster.values 
       
-      sorted_vals.collect do |arr|
-        arr.sort 
-     
     end 
   end 
     
