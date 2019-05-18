@@ -21,9 +21,8 @@ class School
       @roster[level]
     end 
     
-    def sort_by_value
-      sorted_vals = @roster.values 
-      
+    def sort_by_key
+      @roster.keys.sort.to_h
     end 
   end 
     
