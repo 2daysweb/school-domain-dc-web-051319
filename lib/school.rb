@@ -25,7 +25,7 @@ class School
       @roster.keys.sort.to_h
   end 
     
-    
+    #sort value arrays in place
     def sort
       sorted_key_hash.each do |k,v|
           arr_values.each do |arr| 
