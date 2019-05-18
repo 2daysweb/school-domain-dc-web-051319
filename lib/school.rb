@@ -23,10 +23,10 @@ class School
     
     def sort_by_value
       sorted_vals = @roster.values 
-      #binding.pry
+      
       sorted_vals.collect do |arr|
         arr.sort 
-      #binding.pry
+     
     end 
   end 
     
