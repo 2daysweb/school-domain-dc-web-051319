@@ -27,7 +27,6 @@ class School
     
     #sort value arrays in place
     def sort
-      binding.pry
       sorted_key_hash = sort_by_key
       sorted_key_hash.each do |k,v|
         sorted_key_hash[k] = v.sort!
