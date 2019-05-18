@@ -28,14 +28,8 @@ class School
     #sort value arrays in place
     def sort
       sorted_key_hash = sort_by_key
-          @roster[k] = arr
-        else
-          @roster[k] = @roster[k]
-          binding.pry
-        end
-      end
-    end
-  end
+      sorted_key_hash.each do |k,v|
+        sorted_key_hash[k] = v.sort!
 end
           
       
